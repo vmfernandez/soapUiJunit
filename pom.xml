@@ -11,7 +11,7 @@
 		<!-- Local repo for soapUi local dependency -->
 		<repository>
 			<id>my-local-repo</id>
-			<url>${project.basedir}/src/main/resources/</url>
+			<url>${project.basedir}/src/test/resources/</url>
 		</repository>
 
 		<repository>
