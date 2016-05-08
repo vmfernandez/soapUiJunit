@@ -42,7 +42,7 @@ public class SoapUIEasyTest {
 	public void shouldExecuteAllTestCases() throws Exception{
 			SoapUITestCaseRunner soapUITestCaseRunner = new SoapUITestCaseRunner();
 		    soapUITestCaseRunner.setProjectFile(TEST_FILE);
-		    soapUITestCaseRunner.run();
+		    boolean run = soapUITestCaseRunner.run();
 		    //No asserts in this mode
 	}
 }
